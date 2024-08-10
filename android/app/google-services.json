@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "692847091941",
+    "project_id": "beinghuman-79d2e",
+    "storage_bucket": "beinghuman-79d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692847091941:android:cc9842c6a6ebe8bcd2b40c",
+        "android_client_info": {
+          "package_name": "com.example.beinghuman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692847091941-2q8dqnrsks69up8d8mmb2fkpqfvuprei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beinghuman",
+            "certificate_hash": "356f1d6dd16b2b5edca3d87f915185eaaad27c4b"
+          }
+        },
+        {
+          "client_id": "692847091941-6udtgbqvr1krd680bks78ilq6jtme8p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvf_PEAxdPwDSIGpGEWsCgIs8wquesjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692847091941-6udtgbqvr1krd680bks78ilq6jtme8p3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "692847091941-0tc61necjb59fm8ejnbp0hr3r6it0lnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.beinghuman"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

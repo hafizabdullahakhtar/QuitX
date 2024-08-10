@@ -1,0 +1,94 @@
+name: beinghuman
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+#--------------- PACKAGES ---------------#
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility packages
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.19.0
+  carousel_slider: ^4.2.1
+
+  # Firebase
+  firebase_core: ^2.25.5
+  smooth_page_indicator: ^1.1.0
+  get_storage: ^2.1.1
+  path_provider: ^2.1.2
+  remove: ^1.0.10
+  shared_preferences: ^2.2.2
+  lottie: ^3.1.0
+  connectivity_plus: ^5.0.2
+  flutter_native_splash: ^2.3.10
+  firebase_auth: ^4.17.7
+  cloud_firestore: ^4.15.7
+  url_launcher: ^6.2.5
+  percent_indicator: ^4.2.3
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  audioplayers: ^6.0.0
+  timeline_tile: ^2.0.0
+  shimmer: ^3.0.0
+
+  # Product specific
+
+#--------------- ./ PACKAGES ---------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ---------------#
+  assets:
+    - lib/assets/fonts/
+    - lib/assets/icons/brands/
+    - lib/assets/images/
+    - lib/assets/images/OnBoardingImages/
+    - lib/assets/images/BrandImages/
+    - lib/assets/logo/
+    - lib/assets/icons/UI/
+    - lib/assets/icons/UI/daily_habits/
+    - lib/assets/icons/UI/weekly_challanges/
+    - lib/assets/sfx/
+
+  #--------------- LOCAL ASSETS ---------------#
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib\assets\fonts\Poppins-Light.ttf
+          weight: 300
+        - asset: lib\assets\fonts\Poppins-Regular.ttf
+          weight: 400
+        - asset: lib\assets\fonts\Poppins-Italic.ttf
+          style: italic
+        - asset: lib\assets\fonts\Poppins-Medium.ttf
+          weight: 500
+        - asset: lib\assets\fonts\Poppins-MediumItalic.ttf
+          weight: 500
+        - asset: lib\assets\fonts\Poppins-Light.ttf
+          weight: 300
+          style: italic
+    - family: Montserrat
+      fonts:
+        - asset: lib\assets\fonts\Montserrat-VariableFont_wght.ttf
