@@ -17,6 +17,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](homescreen.png)
 ![Screenshot 2](screenshot2.png)
 ![Screenshot 2](screenshot3.png)
