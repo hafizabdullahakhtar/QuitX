@@ -71,7 +71,7 @@ flutter:
     - lib/assets/icons/UI/weekly_challanges/
     - lib/assets/sfx/
 
-  #--------------- LOCAL ASSETS ---------------#
+  #--------------- LOCAL FONTS ---------------#
 
   fonts:
     - family: Poppins
